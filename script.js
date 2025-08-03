@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('https://vercel.com/ajith-reddys-projects/mai-deploy/FnzKiJxropYEr4byt5hc1yvZvrMj', {
+        fetch('https://mai-deploy-a3l18rgkn-ajith-reddys-projects.vercel.app/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
