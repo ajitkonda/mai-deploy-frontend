@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('https://mai-deploy-git-main-ajith-reddys-projects.vercel.app/', {
+        fetch('https://mai-deploy-git-main-ajith-reddys-projects.vercel.app/life_chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
